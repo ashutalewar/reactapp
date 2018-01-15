@@ -53,6 +53,8 @@ const config = {
         loader: 'babel-loader',
         query: {
           cacheDirectory: true,
+          presets: ['react', 'es2015'],
+          plugins: ['transform-class-properties']
         },
       },
     ],
